@@ -1,0 +1,40 @@
+[package]
+name = "pi_ecs_old"
+version = "0.1.0"
+authors = ["suncy <suncy@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+pi_slab = {path="../pi_slab"}
+pi_atom = {path="../pi_atom"}
+pi_map = {path="../pi_map"}
+pi_any = {path="../pi_any"}
+pi_pointer = {path="../pi_pointer"}
+pi_listener = {path="../pi_listener"}
+pi_hash = {path="../pi_hash"}
+pi_time = {path="../pi_time"}
+pi_share = {path="../pi_share"}
+pi_debug_info = {path="../pi_debug_info"}
+paste = "0.1"
+lazy_static = "*"
+log = "*"
+# im = "*"
+
+# [dependencies.web-sys]
+# version = "*"
+# features = [
+# 	"console",
+# ]
+
+[features]
+defualt = ["runtime"]
+runtime = []
+
+[[example]]
+name = "expanded"
+
+[[example]]
+name = "basic"
+
+
+
