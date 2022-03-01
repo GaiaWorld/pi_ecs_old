@@ -1,12 +1,12 @@
 [package]
 name = "pi_ecs_old"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["suncy <530739162@qq.com>"]
 edition = "2021"
 description = "ecs"
 repository = "https://github.com/GaiaWorld/pi_ecs_old.git"
 license = "MIT OR Apache-2.0"
-keywords = ["pi", "pi_ecs_old", "ecs"]
+keywords = ["pi", "ecs"]
 
 [dependencies]
 pi_slab = "0.1"

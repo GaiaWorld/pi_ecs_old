@@ -6,7 +6,7 @@
 // // extern crate pi_ecs;
 // use pi_atom::Atom;
 
-// use crate::{
+// use pi_ecs_old::{
 //     Component, CreateEvent, DeleteEvent, Dispatcher, EntityListener, LendMut, ModifyEvent,
 //     MultiCaseImpl, MultiCaseListener, Runner, SeqDispatcher, SingleCaseImpl, SingleCaseListener,
 //     World,
