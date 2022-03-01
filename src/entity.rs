@@ -1,8 +1,8 @@
 use std::{any::TypeId, marker::PhantomData, mem::size_of, ops::Deref, sync::Arc};
 
-pub use any::ArcAny;
+pub use pi_any::ArcAny;
 // use pointer::cell::StdCell;
-use slab::{Slab, SlabIter};
+use pi_slab::{Slab, SlabIter};
 
 use crate::cell::StdCell;
 use crate::component::MultiCase;

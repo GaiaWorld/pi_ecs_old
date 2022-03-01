@@ -1,15 +1,8 @@
 #![feature(core_intrinsics)]
 #![feature(proc_macro_hygiene)]
 
-extern crate pi_atom;
-extern crate listener;
-extern crate map;
-extern crate pointer;
-extern crate slab;
 #[macro_use]
-extern crate any;
-extern crate hash;
-extern crate share;
+extern crate pi_any;
 // #[cfg(feature = "wasm-bindgen")]
 // extern crate wasm_bindgen_cross_performance;
 // #[cfg(feature = "native")]
@@ -17,7 +10,7 @@ extern crate share;
 // extern crate im;
 pub extern crate paste;
 
-pub extern crate time;
+pub extern crate pi_time;
 extern crate log;
 
 // pub extern crate web_sys;
@@ -48,7 +41,7 @@ pub use cell::StdCell;
 
 use std::any::TypeId;
 
-use map::vecmap::VecMap;
+use pi_map::vecmap::VecMap;
 #[derive(Debug)]
 pub struct Position {
     pub x: f32,
@@ -121,7 +114,7 @@ pub trait TypeIds {
 
 #[derive(Debug)]
 pub struct RunTime {
-    pub sys_name: atom::Atom,
+    pub sys_name: pi_atom::Atom,
     pub cost_time: std::time::Duration, // 单位ms
 }
 

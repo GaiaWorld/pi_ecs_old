@@ -1,23 +1,27 @@
 [package]
 name = "pi_ecs_old"
 version = "0.1.0"
-authors = ["suncy <suncy@gmail.com>"]
-edition = "2018"
+authors = ["suncy <530739162@qq.com>"]
+edition = "2021"
+description = "ecs"
+repository = "https://github.com/GaiaWorld/pi_ecs_old.git"
+license = "MIT OR Apache-2.0"
+keywords = ["pi", "pi_ecs_old", "ecs"]
 
 [dependencies]
-pi_slab = {path="../pi_slab"}
-pi_atom = {path="../pi_atom"}
-pi_map = {path="../pi_map"}
-pi_any = {path="../pi_any"}
-pi_pointer = {path="../pi_pointer"}
-pi_listener = {path="../pi_listener"}
-pi_hash = {path="../pi_hash"}
-pi_time = {path="../pi_time"}
-pi_share = {path="../pi_share"}
-pi_debug_info = {path="../pi_debug_info"}
+pi_slab = "0.1"
+pi_atom = "0.1"
+pi_map = "0.1"
+pi_any = "0.1"
+pi_pointer = "0.1"
+pi_listener = "0.1"
+pi_hash = "0.1"
+pi_time = "0.1"
+pi_share = "0.1"
+pi_debug_info = "0.1"
 paste = "0.1"
-lazy_static = "*"
-log = "*"
+lazy_static = "1.4"
+log = "0.4"
 # im = "*"
 
 # [dependencies.web-sys]
@@ -30,11 +34,11 @@ log = "*"
 defualt = ["runtime"]
 runtime = []
 
-[[example]]
-name = "expanded"
+# [[example]]
+# name = "expanded"
 
-[[example]]
-name = "basic"
+# [[example]]
+# name = "basic"
 
 
 
